@@ -1,5 +1,5 @@
 # Universal Timing Check Board (UTCB)
-## This repo acts as the digital storage of all associated developments (e.g. Circuit Design, Pictures, CAD) and related documentation to the "Universal Timing Check Board". This device acts as a sister companion to circuit testing for analog voltage checks and timing. Inspiration for board function and design is from previous revisions of an analog based brake system plausiblity device, however, this device is more general purpose and for my personal use. 
+###### This repo acts as the digital storage of all associated developments (e.g. Circuit Design, Pictures, CAD) and related documentation to the "Universal Timing Check Board". This device acts as a sister companion to circuit testing for analog voltage checks and timing. Inspiration for board function and design is from previous revisions of an analog based brake system plausiblity device, however, this device is more general purpose and for my personal use. 
 
 
 Image below shows a general esimate of how I intended the board to look like and inspired by (although to be at a much much smaller dimensional board footprint with no microcontroller / FPGA variant)
