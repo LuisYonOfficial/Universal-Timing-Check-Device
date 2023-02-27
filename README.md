@@ -18,7 +18,7 @@ Image below shows a general esimate of how I intended the board to look like and
     - Red: Threshold failure
     - Orange: Timing Failure
     - Green: No Failure
-- Has breakout OLED slot for visualizing data in real time with bluetooth connected transmitter.
+- Has breakout OLED slot for visualizing data in real time with bluetooth connected transmitter. Most likely will use STM32 for MCU. 
     
 ## Board Connection Points
 
