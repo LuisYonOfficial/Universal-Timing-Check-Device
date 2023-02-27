@@ -1,5 +1,7 @@
 # UTCB
-This repo acts as the digital storage of all associated developments (e.g. Circuit Design, Pictures, CAD) and related documentation to the "Universal Timing Check Board". This device acts as a sister companion to circuit testing for analog voltage checks and timing. 
+This repo acts as the digital storage of all associated developments (e.g. Circuit Design, Pictures, CAD) and related documentation to the "Universal Timing Check Board". This device acts as a sister companion to circuit testing for analog voltage checks and timing. Inspiration for board function and design is from previous revisions of an analog based brake system plausiblity device, however, this device is more general purpose and for my personal use. 
+
+![image](https://user-images.githubusercontent.com/126422709/221457139-57d0c613-f147-428f-b165-ee71c0b4f5a0.png)
 
 ** Board Functionality ** 
 
@@ -15,8 +17,6 @@ This repo acts as the digital storage of all associated developments (e.g. Circu
     - Orange: Timing Failure
     - Green: No Failure
     
-    ![image](https://user-images.githubusercontent.com/126422709/221456646-b8c6f140-ab58-4f6d-94e5-a3945f314592.png)
-
 ** Board Connection Points ** 
 
 Main PWR: 
