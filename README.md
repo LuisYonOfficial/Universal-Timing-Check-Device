@@ -14,6 +14,8 @@ This repo acts as the digital storage of all associated developments (e.g. Circu
     - Red: Threshold failure
     - Orange: Timing Failure
     - Green: No Failure
+    
+    ![image](https://user-images.githubusercontent.com/126422709/221456646-b8c6f140-ab58-4f6d-94e5-a3945f314592.png)
 
 ** Board Connection Points ** 
 
