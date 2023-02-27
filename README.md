@@ -9,11 +9,11 @@ Image below shows a general esimate of how I intended the board to look like and
 ** Board Functionality ** 
 
 - Check if an upper threshold is met. (0v to 12v)
-    - Comparator check
+    - Multichannel Comparator check
 - Check if a lower threshold is met.
-    - Comparator check (0v to 12v)
+    - Multichannel Comparator check (0v to 12v)
 - Check if mid threshold comparison between 2-4 signals is met. 
-    - Mid-threshold voltage set via 2- 4 potentiometers (0v to 12v)
+    - Mid-threshold voltage set via 2 - 8 potentiometers (0v to 12v)
 - Drive a failure mode signal out from either signals (12v, 7.5v, 3.3v, 0v)
 - Have RGB LEDs that glow based on what failure condition per signal is failed or if there’s a net pass. These are tied to comparators? Might be tricky. 
     - Red: Threshold failure
