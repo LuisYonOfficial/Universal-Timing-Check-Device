@@ -1,0 +1,5 @@
+// Initial Startup Operation
+Initialize():
+
+	// Light all LEDS for inputted power lines (Drives comparator operations)
+	// Check for 
