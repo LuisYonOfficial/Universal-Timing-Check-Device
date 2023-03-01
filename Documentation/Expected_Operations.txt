@@ -1,5 +1,56 @@
-// Initial Startup Operation
-Initialize():
+// This file contains all the pseudocode driving each comparator operation and final checking 
 
+// Initial Startup Operation
+
+Initialize(PWR -> 12vPole, 7v5pole, 5vpole, 3v3pole) {
 	// Light all LEDS for inputted power lines (Drives comparator operations)
-	// Check for 
+	// Check for if 12v (Via external PWR source) or 5v has been inputted 
+
+	if (PWR == 12v)
+		Set12vPWRpole()
+		Set7v6PWRpole()
+		Set5vPWRpole()
+		Set3v3PWRpole()
+
+	else if (PWR  == 5v) 
+		Set5vPWRpole()
+		Set3v3PWRpole()
+}
+
+
+// Set Logic availability for each comparator basis
+LogicSettings(SIG[0:5] -> CompA, CompB, CompC, CompD, CompE, CompF)
+
+	// Set logic level for each comparator.
+	SetComparatorALogic()
+	SetComparatorBLogic()
+	SetComparatorCLogic()
+	SetComparatorDLogic()
+	SetComparatorELogic()
+	SetComparatorFLogic()
+}
+
+// Set High & Low Thresholds per comparator. All Comparator swings are done via potentiometer.
+ThresholdBoundarySetting(
+
+	// ComparatorA  logic set
+	SetCompAHigh();
+	SetCompALow();
+	// ComparatorB logic set
+	SetCompBHigh();
+	SetCompBLow();
+	// ComparatorC logic set
+	SetCompCHigh();
+	SetCompCLow();
+	// ComparatorD  logic set
+	SetCompDHigh();
+	SetCompDLow();
+	// ComparatorE  logic set
+	SetCompEHigh();
+	SetCompELow();
+	// ComparatorF  logic set
+	SetCompFHigh();
+	SetCompFLow();
+}
+
+
