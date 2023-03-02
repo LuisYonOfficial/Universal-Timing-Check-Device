@@ -326,6 +326,14 @@
     [
       "83d0f8a4-9dc2-453b-ad65-587c83c4dade",
       ""
+    ],
+    [
+      "bde50e00-d364-4ec4-b783-17a831ee4624",
+      "LogicSelector"
+    ],
+    [
+      "2d64236e-93fc-470c-b3e6-8835376edabc",
+      "ComparatorLogic"
     ]
   ],
   "text_variables": {}

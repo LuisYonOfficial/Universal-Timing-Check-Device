@@ -1,4 +1,4 @@
-21450609050635368
+21452288054634725
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1567,6 +1567,13 @@ SWITCH SMD KSA SW
 0
 5
 5
+Button_Switch_THT
+NR01105ANG132C
+NR01105ANG13-2C-1
+Connector
+0
+10
+10
 Button_Switch_THT
 Nidec_Copal_SH-7010C
 4-bit rotary coded switch, through-hole, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
