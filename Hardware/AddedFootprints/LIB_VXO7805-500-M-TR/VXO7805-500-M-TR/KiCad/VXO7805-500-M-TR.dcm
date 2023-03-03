@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VXO7805-500-M-TR
+D Module DC-DC 24VIN 1-OUT 5V 0.5A 2.5W 4-Pin SMD Module T/R
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ebe71804fae27f1150299b4ebc025588.pdf
+$ENDCMP
+#
+#End Doc Library

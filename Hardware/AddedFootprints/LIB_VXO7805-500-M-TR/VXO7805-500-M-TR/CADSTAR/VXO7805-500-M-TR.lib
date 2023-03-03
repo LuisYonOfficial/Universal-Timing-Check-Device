@@ -1,0 +1,18 @@
+.VXO7805-500-M-TR :1 ;Module DC-DC 24VIN 1-OUT 5V 0.5A 2.5W 4-Pin SMD Module T/R
+VXO7805500MTR
+*STM J
+*NGS
+*PLB 1="+VIN" 2="GND" 3="+VO" 4="REMOTE ON/OFF"
+*MXP 4
+*DFN VXO7805-500-M-TR
+~!Manufacturer_Name (CUI Inc.)
+~!Manufacturer_Part_Number (VXO7805-500-M-TR)
+~!Mouser Part Number (490-VXO7805-500-M-TR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CUI-Inc/VXO7805-500-M-TR?qs=GBLSl2AkirsIOUn2Flq1hQ%3D%3D)
+~!Arrow Part Number (VXO7805-500-M-TR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/vxo7805-500-m-tr/cui-inc?region=nac)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ebe71804fae27f1150299b4ebc025588.pdf)
+~!Height (3.5mm)
+~!3D_Model (VXO7805-500-M-TR)
+VXO7805-500-M-TR
+1.1!U 2.1!U 3.1!U 4.1!U 

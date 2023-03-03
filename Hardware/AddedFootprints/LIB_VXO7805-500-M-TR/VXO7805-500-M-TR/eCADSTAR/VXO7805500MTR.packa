@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "VXO7805-500-M-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-01-15-16:17:22)
+    (mountForm default
+        (footprintRef "VXO7805500MTR")
+        (spec "System")
+    )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NR01105ANG13-2C"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-03-22:10:39)
+    (mountForm default
+        (footprintRef "NR01105ANG132C")
+        (spec "System")
+    )
+)

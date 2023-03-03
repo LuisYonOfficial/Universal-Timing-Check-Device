@@ -1,0 +1,136 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "VXO7805-500-M-TR"
+   (description "Module DC-DC 24VIN 1-OUT 5V 0.5A 2.5W 4-Pin SMD Module T/R")
+   (family "CON")
+   (package "VXO7805500MTR")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ebe71804fae27f1150299b4ebc025588.pdf")
+   (attribute "Geometry.Height" "3.5mm")
+   (attribute "Manufacturer_Name" "CUI Inc.")
+   (attribute "Manufacturer_Part_Number" "VXO7805-500-M-TR")
+   (attribute "Mouser Part Number" "490-VXO7805-500-M-TR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Inc/VXO7805-500-M-TR?qs=GBLSl2AkirsIOUn2Flq1hQ%3D%3D")
+   (attribute "Arrow Part Number" "VXO7805-500-M-TR")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/vxo7805-500-m-tr/cui-inc?region=nac")
+   (gate
+    (symbol "VXO7805-500-M-TR")
+    (pin "+VIN" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "+VO" 3 PS)
+    (pin "REMOTE_ON/OFF" 4 PS)
+   )
+  )
+  (symbol "VXO7805-500-M-TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "VXO7805500MTR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -6.25 6.75)
+      (pt 6.25 6.75)
+      (pt 6.25 -6.75)
+      (pt -6.25 -6.75)
+      (pt -6.25 6.75))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.1 8.25)
+      (pt 7.75 8.25)
+      (pt 7.75 -8.25)
+      (pt -9.1 -8.25)
+      (pt -9.1 8.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3 6.75)
+      (pt 3 6.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -6.25 -4)
+      (pt -6.25 3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.5 -6.75)
+      (pt 3 -6.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 6.25 -4)
+      (pt 6.25 3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8 7)
+      (arc (pt -8.000 7.000) (pt -8.100 6.950) (pt -8.000 7.050) (start 180.0) (sweep .0))
+      (pt -8.1 7)
+      (arc (pt -8.100 7.000) (pt -8.100 6.950) (pt -8.000 7.050) (start 180.0) (sweep 180.0))
+      (pt -8 7))))
+   (leg 1 (pt -5.500 6.000) (padstack 0))
+   (leg 2 (pt 5.500 6.000) (padstack 0))
+   (leg 3 (pt 5.500 -6.000) (padstack 0))
+   (leg 4 (pt -5.500 -6.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.500 2.500 0 0 90.000))
+   )
+   (model "VXO7805-500-M-TR.stp"
+    (euler 0 0 0)
+    (offset -6.269999980926514 -6.75 0)
+   )
+  )
+ )
+)

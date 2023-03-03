@@ -1,0 +1,98 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "3557-2"
+   (description "THM 2 in 1 Auto Blade Holder P/N 3557-2")
+   (family "CON")
+   (package "3557-2")
+   (attribute "Datasheet Link" "http://www.keyelco.com/product-pdf.cfm?p=296")
+   (attribute "Mouser Part Number" "534-3557-2")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-2?qs=cxy41lVAGV%2FfbyASjpXK1g%3D%3D")
+   (attribute "Manufacturer_Name" "Keystone Electronics")
+   (attribute "Manufacturer_Part_Number" "3557-2")
+   (gate
+    (symbol "3557-2")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "3557-2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "3557-2"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -9.905 3.365)
+      (pt 9.905 3.365)
+      (pt 9.905 -3.365)
+      (pt -9.905 -3.365)
+      (pt -9.905 3.365))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -9.905 3.365)
+      (pt -9.905 -3.365)
+      (pt 9.905 -3.365)
+      (pt 9.905 3.365)
+      (pt -9.905 3.365))))
+   (leg 1 (pt -6.735 1.7) (padstack 0))
+   (leg 2 (pt 6.735 1.7) (padstack 0))
+   (leg 3 (pt -6.735 -1.7) (padstack 0))
+   (leg 4 (pt 6.735 -1.7) (padstack 0))
+   (padstack 0
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.4))
+    (pad (layer INNER) (round 2.4))
+    (pad (layer BCOP) (round 2.4))
+   )
+   (model "3557-2.stp"
+    (euler 90 0 0)
+    (offset -9.010000228881836 15.510000228881836 -6.320000171661377)
+   )
+  )
+ )
+)

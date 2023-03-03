@@ -1,0 +1,9 @@
+Manufacturer=CUI Inc.
+PartNumber=VXO7805-500-M-TR
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=2.4
+Released=2020-03-22 21:15:30
+Downloaded=2023-03-03 07:26:26
+3D=Y

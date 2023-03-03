@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/11546952/1082652/2.49/4/2/Connector/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r250_250" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="98.425196850392" height="98.425196850392" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="106.29921259842" height="106.29921259842" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="98.425196850392" height="98.425196850392" />
+  </padstyle>
+  <footprint name="VXO7805500MTR" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r250_250" originx="-216.53543307086" originy="236.22047244094" rotation="0" />
+    <pcbpin number="2" name="2" style="r250_250" originx="216.53543307086" originy="236.22047244094" rotation="0" />
+    <pcbpin number="3" name="3" style="r250_250" originx="216.53543307086" originy="-236.22047244094" rotation="0" />
+    <pcbpin number="4" name="4" style="r250_250" originx="-216.53543307086" originy="-236.22047244094" rotation="0" />
+    <line layer="TOP_ASSEMBLY" originx="-246.06299212598" originy="265.74803149606" endx="246.06299212598" endy="265.74803149606" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="246.06299212598" originy="265.74803149606" endx="246.06299212598" endy="-265.74803149606" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="246.06299212598" originy="-265.74803149606" endx="-246.06299212598" endy="-265.74803149606" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-246.06299212598" originy="-265.74803149606" endx="-246.06299212598" endy="265.74803149606" width="7.8740157480314" />
+    <line layer="TOP_PLACE_BOUND" originx="-358.26771653543" originy="324.8031496063" endx="305.11811023622" endy="324.8031496063" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="305.11811023622" originy="324.8031496063" endx="305.11811023622" endy="-324.8031496063" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="305.11811023622" originy="-324.8031496063" endx="-358.26771653543" endy="-324.8031496063" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-358.26771653543" originy="-324.8031496063" endx="-358.26771653543" endy="324.8031496063" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-118.11023622047" originy="265.74803149606" endx="118.11023622047" endy="265.74803149606" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-246.06299212598" originy="-157.48031496063" endx="-246.06299212598" endy="118.11023622047" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-137.79527559055" originy="-265.74803149606" endx="118.11023622047" endy="-265.74803149606" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="246.06299212598" originy="-157.48031496063" endx="246.06299212598" endy="118.11023622047" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-314.96062992126" originy="275.5905511811" endx="-314.96062992126" endy="275.5905511811" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-316.92913385826" originy="275.5905511811" startangle=".0" sweepangle="180.0" radius="1.9685039370078" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-318.89763779527" originy="275.5905511811" endx="-318.89763779527" endy="275.5905511811" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-316.92913385826" originy="275.5905511811" startangle="180.0" sweepangle="180.0" radius="1.9685039370078" width="3.9370078740157" />
+  </footprint>
+  <symbol name="VXO7805-500-M-TR" originx="0" originy="0">
+    <line originx="200" originy="100" endx="1300" endy="100" width="0" />
+    <line originx="1300" originy="-200" endx="1300" endy="100" width="0" />
+    <line originx="1300" originy="-200" endx="200" endy="-200" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-200" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="+VIN" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="1300" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1270" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND" />
+      <text name="pindes" originx="1360" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="1300" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1270" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="+VO" />
+      <text name="pindes" originx="1360" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="REMOTE_ON/OFF" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="4" />
+    </sympin>
+  </symbol>
+  <component name="VXO7805-500-M-TR" designatorprefix="J" height="137.79527559055" footprint="VXO7805500MTR">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="+VIN" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="+VO" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="REMOTE_ON/OFF" />
+    <attached_symbol gate="1" name="VXO7805-500-M-TR" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ebe71804fae27f1150299b4ebc025588.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Module DC-DC 24VIN 1-OUT 5V 0.5A 2.5W 4-Pin SMD Module T/R" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="CUI Inc." />
+    <text name="Manufacturer_Part_Number" originx="1350" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="VXO7805-500-M-TR" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="490-VXO7805-500-M-TR" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/CUI-Inc/VXO7805-500-M-TR?qs=GBLSl2AkirsIOUn2Flq1hQ%3D%3D" />
+    <text name="Arrow Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="VXO7805-500-M-TR" />
+    <text name="Arrow Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.arrow.com/en/products/vxo7805-500-m-tr/cui-inc?region=nac" />
+  </component>
+</quadcept_library>

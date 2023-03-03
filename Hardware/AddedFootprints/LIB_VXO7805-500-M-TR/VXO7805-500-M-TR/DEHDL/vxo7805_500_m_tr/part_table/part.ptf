@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'VXO7805_500_M_TR'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "CUI Inc.", "VXO7805-500-M-TR" (!) = "", "VXO7805500MTR", "Other", "490-VXO7805-500-M-TR", "https://www.mouser.co.uk/ProductDetail/CUI-Inc/VXO7805-500-M-TR?qs=GBLSl2AkirsIOUn2Flq1hQ%3D%3D", "VXO7805-500-M-TR", "https://www.arrow.com/en/products/vxo7805-500-m-tr/cui-inc?region=nac", "Module DC-DC 24VIN 1-OUT 5V 0.5A 2.5W 4-Pin SMD Module T/R", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ebe71804fae27f1150299b4ebc025588.pdf", "3.5 mm"
+END_PART
+
+END.

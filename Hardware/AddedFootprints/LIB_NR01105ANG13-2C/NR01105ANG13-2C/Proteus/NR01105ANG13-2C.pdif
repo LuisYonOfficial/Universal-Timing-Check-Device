@@ -1,0 +1,145 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "NR01105ANG13-2C"
+   (description "NKK SWITCHES - NR01105ANG13-2C - ROTARY SWITCH, SP5T, 0.4VA, 28VAC/DC, TH")
+   (family "CON")
+   (package "NR01105ANG132C")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/NR01105ANG13-2C.pdf")
+   (attribute "Geometry.Height" "17.2mm")
+   (attribute "Mouser Part Number" "633-NR01105ANG13-2C")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NKK-Switches/NR01105ANG13-2C?qs=EU6FO9ffTwe1KMswS2eoPA%3D%3D")
+   (attribute "Manufacturer_Name" "NKK Switches")
+   (attribute "Manufacturer_Part_Number" "NR01105ANG13-2C")
+   (gate
+    (symbol "NR01105ANG13-2C")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "C1" C1 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+    (pin "MH3" MH3 PS)
+    (pin "MH4" MH4 PS)
+   )
+  )
+  (symbol "NR01105ANG13-2C"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 400) (pt 700 400) (pt 700 -600) (pt 200 -600) (pt 200 400) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 -800) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 -800) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 600) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 600) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "NR01105ANG132C"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.27 2.81)
+      (pt 10.43 2.81)
+      (pt 10.43 -7.89)
+      (pt -0.27 -7.89)
+      (pt -0.27 2.81))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.55 4.29)
+      (pt 11.91 4.29)
+      (pt 11.91 -9.37)
+      (pt -3.55 -9.37)
+      (pt -3.55 4.29))))
+   (layer TSLK
+    (graphic
+     (stroke 0.3)
+     (path
+      (closed true)
+      (pt -2.54 -0.54)
+      (arc (pt -2.540 -0.540) (pt -2.550 -0.545) (pt -2.540 -0.535) (start 180.0) (sweep .0))
+      (pt -2.55 -0.54)
+      (arc (pt -2.550 -0.540) (pt -2.550 -0.545) (pt -2.540 -0.535) (start 180.0) (sweep 180.0))
+      (pt -2.54 -0.54))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 10.160 0.000) (padstack 0))
+   (leg 3 (pt 10.160 -2.540) (padstack 0))
+   (leg 4 (pt 10.160 -5.080) (padstack 0))
+   (leg 5 (pt 0.000 -5.080) (padstack 0))
+   (leg C1 (pt 0.000 -2.540) (padstack 0))
+   (leg MH1 (pt 2.540 -7.620) (padstack 0))
+   (leg MH2 (pt 7.620 -7.620) (padstack 0))
+   (leg MH3 (pt 7.620 2.540) (padstack 0))
+   (leg MH4 (pt 2.540 2.540) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (model "NR01105ANG13-2C.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model VXO7805-500-M-TR
+#/11546952/1082652/2.49/4/2/Connector
+DEF VXO7805-500-M-TR J 0 30 Y Y 1 F N
+F0 "J" 1350 300 50 H V L CNN
+F1 "VXO7805-500-M-TR" 1350 200 50 H V L CNN
+F2 "VXO7805500MTR" 1350 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ebe71804fae27f1150299b4ebc025588.pdf" 1350 0 50 H I L CNN
+F4 "Module DC-DC 24VIN 1-OUT 5V 0.5A 2.5W 4-Pin SMD Module T/R" 1350 -100 50 H I L CNN "Description"
+F5 "3.5" 1350 -200 50 H I L CNN "Height"
+F6 "CUI Inc." 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "VXO7805-500-M-TR" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "490-VXO7805-500-M-TR" 1350 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/CUI-Inc/VXO7805-500-M-TR?qs=GBLSl2AkirsIOUn2Flq1hQ%3D%3D" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "VXO7805-500-M-TR" 1350 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/vxo7805-500-m-tr/cui-inc?region=nac" 1350 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X GND 2 1500 0 200 L 50 50 0 0 P
+X +VO 3 1500 -100 200 L 50 50 0 0 P
+X REMOTE_ON/OFF 4 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
