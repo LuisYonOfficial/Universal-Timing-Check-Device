@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "UDZVTE-174_7B"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-07-13-12:19:15)
+    (mountForm default
+        (footprintRef "UDZVTE1722B")
+        (spec "System")
+    )
+)

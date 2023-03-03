@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_16290074"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-07-21-08:35:10)
+    (utime 2022-07-21-08:35:10)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MM3Z12VT1GX")
+)
+
+
+(pinAssign "ECS_16290074"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-07-21-08:35:10)
+    (utime 2022-07-21-08:35:10)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_16290074")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MM3Z12VT1GX")
+)
+
+
+(part "MM3Z12VT1GX"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-07-21-08:35:10)
+    (utime 2022-07-21-08:35:10)
+    (packageRef "MM3Z12VT1GX")
+    (pinAssignRef "ECS_16290074")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "Z")
+    (property "description" "Zener Diodes MM3Z12VT1G/SOD323/SOD2")
+    (property "Mouser_Part_Number" "771-MM3Z12VT1GX")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/MM3Z12VT1GX?qs=DRkmTr78QAQGsxQiWVNHbQ%3D%3D")
+    (property "Manufacturer_Name" "Nexperia")
+    (property "Manufacturer_Part_Number" "MM3Z12VT1GX")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 1.1)
+)
+
+

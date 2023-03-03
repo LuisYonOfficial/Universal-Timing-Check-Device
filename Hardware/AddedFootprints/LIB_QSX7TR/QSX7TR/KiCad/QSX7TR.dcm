@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP QSX7TR
+D NPN+NPN, SOT-457T, Driver Transistor
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/bipolar/qsx7tr-e.pdf
+$ENDCMP
+#
+#End Doc Library

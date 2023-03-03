@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2SB1707TL
+D PNP, SOT-346T, -12V -4A, Low VCE(sat) Transistor
+K
+F https://componentsearchengine.com/Datasheets/1/2SB1707TL.pdf
+$ENDCMP
+#
+#End Doc Library

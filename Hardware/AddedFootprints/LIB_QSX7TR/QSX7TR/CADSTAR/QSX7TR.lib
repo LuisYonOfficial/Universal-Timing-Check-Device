@@ -1,0 +1,16 @@
+.QSX7TR :1 ;NPN+NPN, SOT-457T, Driver Transistor
+SOT95P280X100-6N
+*STM Q
+*NGS
+*PLB 1="TR1 EMITTER" 2="TR2 BASE" 3="TR2 COLLECTOR" 4="TR2 EMITTER" 5="TR1 BASE" 6="TR1 COLLECTOR"
+*MXP 6
+*DFN QSX7TR
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (QSX7TR)
+~!Link Datasheet (https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/bipolar/qsx7tr-e.pdf)
+~!Height (1mm)
+~!3D_Model (QSX7TR)
+QSX7TR
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

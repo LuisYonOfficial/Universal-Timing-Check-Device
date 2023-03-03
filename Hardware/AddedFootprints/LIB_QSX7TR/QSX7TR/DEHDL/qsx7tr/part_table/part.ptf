@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'QSX7TR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ROHM Semiconductor", "QSX7TR" (!) = "", "SOT95P280X100-6N", "SOT23 (6-Pin)", "", "", "NPN+NPN, SOT-457T, Driver Transistor", "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/bipolar/qsx7tr-e.pdf", "1 mm"
+END_PART
+
+END.

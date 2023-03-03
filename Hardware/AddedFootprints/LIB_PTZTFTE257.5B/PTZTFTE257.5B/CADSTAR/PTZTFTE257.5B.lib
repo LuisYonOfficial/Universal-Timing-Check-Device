@@ -1,0 +1,16 @@
+.PTZTFTE257.5B :1 ;1W 7.5V, DO-214AC, High Power Zener Diode for Automotive
+PTZTFTE2575B
+*STM Z
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN PTZTFTE257.5B
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (PTZTFTE257.5B)
+~!Link Datasheet (https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/zener/ptztfte257.5b-e.pdf)
+~!Height (2.2mm)
+~!3D_Model (PTZTFTE257.5B)
+PTZTFTE257.5B
+1.1!U 2.1!U 

@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_471508"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-09-20-13:54:43)
+    (utime 2022-10-13-14:32:43)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "2SB1707TL")
+)
+
+
+(pinAssign "ECS_471508"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-09-20-13:54:43)
+    (utime 2022-10-13-14:32:43)
+    (interface
+        (port "1" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "E") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "C") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_471508")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "2SB1707TL")
+)
+
+
+(part "2SB1707TL"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-09-20-13:54:43)
+    (utime 2022-10-13-14:32:43)
+    (packageRef "2SB1707TL")
+    (pinAssignRef "ECS_471508")
+    (interface
+        (port "1" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "E") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "C") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "PNP, SOT-346T, -12V -4A, Low VCE(sat) Transistor")
+    (property "Mouser_Part_Number" "755-2SB1707TL")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=755-2SB1707TL")
+    (property "Manufacturer_Name" "ROHM Semiconductor")
+    (property "Manufacturer_Part_Number" "2SB1707TL")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/1/2SB1707TL.pdf")
+    (property "compAreaTopHeight" 1)
+)
+
+

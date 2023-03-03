@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MM3Z12VT1GX'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "MM3Z12VT1GX" (!) = "", "SOD2512X110N", "Small Outline Diode", "771-MM3Z12VT1GX", "https://www.mouser.co.uk/ProductDetail/Nexperia/MM3Z12VT1GX?qs=DRkmTr78QAQGsxQiWVNHbQ%3D%3D", "Zener Diodes MM3Z12VT1G/SOD323/SOD2", "", "1.1 mm"
+END_PART
+
+END.

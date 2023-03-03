@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PTZTFTE257_5B"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-09-15-06:11:05)
+    (mountForm default
+        (footprintRef "PTZTFTE2575B")
+        (spec "System")
+    )
+)

@@ -1,0 +1,16 @@
+.2SB1707TL :1 ;PNP, SOT-346T, -12V -4A, Low VCE(sat) Transistor
+SOT95P280X100-3N
+*STM Q
+*NGS
+*PLB 1="B" 2="E" 3="C"
+*MXP 3
+*DFN 2SB1707TL
+~!Mouser Part Number (755-2SB1707TL)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=755-2SB1707TL)
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (2SB1707TL)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/2SB1707TL.pdf)
+~!Height (1mm)
+~!3D_Model (2SB1707TL)
+"2SB1707TL"
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BZT52H-A3V3-QX
+D Zener Diodes BZT52H-A3V3-Q/SOD123F/SOD2
+K
+F https://assets.nexperia.com/documents/data-sheet/BZT52H-Q_SER.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'UDZVTE_174.7B'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ROHM Semiconductor", "UDZVTE-174.7B" (!) = "", "UDZVTE1722B", "Other", "755-UDZVTE-174.7B", "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/UDZVTE-174.7B?qs=QcFhgjUTvvq4dv21cmqlIg%3D%3D", "ROHM UDZVTE-174.7B Zener Diode, 4.7V 200 mW SMT 2-Pin SOD-323", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fc0fdee245360d70a490ea42679dfa63.pdf", "0 mm"
+END_PART
+
+END.

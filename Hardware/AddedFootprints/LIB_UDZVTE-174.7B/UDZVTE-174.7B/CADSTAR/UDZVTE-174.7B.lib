@@ -1,0 +1,16 @@
+.UDZVTE-174.7B :1 ;ROHM UDZVTE-174.7B Zener Diode, 4.7V 200 mW SMT 2-Pin SOD-323
+UDZVTE1722B
+*STM Z
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN UDZVTE-174.7B
+~!Mouser Part Number (755-UDZVTE-174.7B)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/UDZVTE-174.7B?qs=QcFhgjUTvvq4dv21cmqlIg%3D%3D)
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (UDZVTE-174.7B)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fc0fdee245360d70a490ea42679dfa63.pdf)
+~!Height (0mm)
+~!3D_Model (UDZVTE-174.7B)
+UDZVTE-174.7B
+1.1!U 2.1!U 

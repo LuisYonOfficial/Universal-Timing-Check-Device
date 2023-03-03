@@ -1,0 +1,9 @@
+Manufacturer=ROHM Semiconductor
+PartNumber=2SD2653KT146
+PartCategory=Transistor BJT NPN
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=2.1
+Released=2018-03-21 09:58:59
+Downloaded=2023-03-03 04:47:23
+3D=Y

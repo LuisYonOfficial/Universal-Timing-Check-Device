@@ -1010,7 +1010,7 @@
     (pin "5" (uuid f2f17f7b-8640-4dbf-9765-d8e15c96be5f))
     (pin "6" (uuid 5eab8e77-7437-4355-87ec-e4e1d545ab85))
     (pin "7" (uuid eead5fcf-3d6c-48ee-87a5-215835a91a64))
-    (pin "8" (uuid 841e03fb-1ab3-4037-b1ac-5e2b67ad43a8))
+    (pin "8" (uuid 66c39283-0379-4021-92bc-8d2558132881))
     (pin "8" (uuid 66c39283-0379-4021-92bc-8d2558132881))
     (instances
       (project "UTCB"
@@ -1111,7 +1111,7 @@
     (pin "5" (uuid 45a821d5-9017-4862-8cde-62419de7cb1b))
     (pin "6" (uuid 97049dec-dddb-4526-af9a-9233bdad6cbc))
     (pin "7" (uuid ce9c6231-b836-44e7-9368-c8388735d31f))
-    (pin "8" (uuid ac14c628-5d33-4211-a2d7-6415529c88f3))
+    (pin "8" (uuid 8c7a92c6-84c2-4d1f-b1b8-5450a19edd71))
     (pin "8" (uuid 8c7a92c6-84c2-4d1f-b1b8-5450a19edd71))
     (instances
       (project "UTCB"
@@ -1268,7 +1268,7 @@
     (pin "5" (uuid 1c2f1558-4a6b-4a84-8546-b6e6a0bae184))
     (pin "6" (uuid 98895094-ea7f-49d6-82e6-accb6968fdf8))
     (pin "7" (uuid ab9f9500-874a-4efd-801f-11260d654c7e))
-    (pin "8" (uuid 451dc1aa-e880-470b-9ca2-52b6e370046e))
+    (pin "8" (uuid 88509487-e5bd-46f0-9a78-393a0dd8c0ad))
     (pin "8" (uuid 88509487-e5bd-46f0-9a78-393a0dd8c0ad))
     (instances
       (project "UTCB"
@@ -1369,7 +1369,7 @@
     (pin "5" (uuid f8895e1a-a523-486d-9585-7cedd951b9b1))
     (pin "6" (uuid 64eda94f-a34e-423d-9976-05b0d19a56ce))
     (pin "7" (uuid da93c566-114d-4368-a25d-027d1cea8e60))
-    (pin "8" (uuid 3b54c6cc-029d-4002-9bb9-de11954226f5))
+    (pin "8" (uuid 30402978-406c-4f5f-91d2-55a6beb205f9))
     (pin "8" (uuid 30402978-406c-4f5f-91d2-55a6beb205f9))
     (instances
       (project "UTCB"
@@ -1410,7 +1410,7 @@
     (pin "5" (uuid 51373870-131e-41a5-9580-2904a8135805))
     (pin "6" (uuid 6308e515-35e1-4b51-bccb-2c0fc1c4648e))
     (pin "7" (uuid ae7cbf36-244d-4465-85fe-4e741fe68f36))
-    (pin "8" (uuid 8d59a3f1-11f5-40d4-838d-77c6f57b5b0e))
+    (pin "8" (uuid d433e336-a0a8-4cdc-8521-1198c98fe772))
     (pin "8" (uuid d433e336-a0a8-4cdc-8521-1198c98fe772))
     (instances
       (project "UTCB"
@@ -1594,7 +1594,7 @@
     (pin "5" (uuid fa7e3de1-45a2-46b4-b459-d3da568759cf))
     (pin "6" (uuid cac6d201-ddae-4c07-916c-2a6516c85ffc))
     (pin "7" (uuid 1bf43320-16b1-475a-8a50-e1be75b1ebd1))
-    (pin "8" (uuid ab825cfa-63f3-4825-9280-98cfa369e2ab))
+    (pin "8" (uuid 510b0c08-552c-42ed-b450-7f19a5c20999))
     (pin "8" (uuid 510b0c08-552c-42ed-b450-7f19a5c20999))
     (instances
       (project "UTCB"

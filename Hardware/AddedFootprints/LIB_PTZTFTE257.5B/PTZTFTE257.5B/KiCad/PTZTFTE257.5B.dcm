@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PTZTFTE257.5B
+D 1W 7.5V, DO-214AC, High Power Zener Diode for Automotive
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/zener/ptztfte257.5b-e.pdf
+$ENDCMP
+#
+#End Doc Library

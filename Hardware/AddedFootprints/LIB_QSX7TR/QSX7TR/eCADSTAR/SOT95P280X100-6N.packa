@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "QSX7TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-12-16-04:45:21)
+    (mountForm default
+        (footprintRef "SOT95P280X100-6N")
+        (spec "System")
+    )
+)

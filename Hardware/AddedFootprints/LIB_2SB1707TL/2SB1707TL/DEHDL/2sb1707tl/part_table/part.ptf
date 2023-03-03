@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2SB1707TL'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ROHM Semiconductor", "2SB1707TL" (!) = "", "SOT95P280X100-3N", "SOT23 (3-Pin)", "755-2SB1707TL", "https://www.mouser.com/Search/Refine.aspx?Keyword=755-2SB1707TL", "PNP, SOT-346T, -12V -4A, Low VCE(sat) Transistor", "https://componentsearchengine.com/Datasheets/1/2SB1707TL.pdf", "1 mm"
+END_PART
+
+END.

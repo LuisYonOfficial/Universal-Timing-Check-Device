@@ -1,4 +1,4 @@
-21452288054634725
+21462354969502932
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51883,6 +51883,34 @@ TVS protection diodes
 0
 2
 2
+Diode_SMD
+PTZTFTE2575B
+PTZTFTE257.5B-2
+Zener Diode
+0
+2
+2
+Diode_SMD
+SOD2512X110N
+(SOD323/SC-76)
+Zener Diode
+0
+2
+2
+Diode_SMD
+SODFL3516X120N
+SOD123F
+Zener Diode
+0
+2
+2
+Diode_SMD
+UDZVTE1722B
+UMD2_SOD-323FL
+Zener Diode
+0
+2
+2
 Diode_THT
 D_5KPW_P7.62mm_Vertical_AnodeUp
 Diode, 5KPW series, Axial, Vertical, pin pitch=7.62mm, , length*diameter=9*8mm^2, , http://www.diodes.com/_files/packages/8686949.gif
@@ -76495,6 +76523,20 @@ SOT-1334-1
 0
 14
 14
+Package_TO_SOT_SMD
+SOT85P240X115-3N
+SOT-23
+Transistor BJT NPN
+0
+3
+3
+Package_TO_SOT_SMD
+SOT95P280X100-3N
+TSMT3
+Transistor BJT PNP
+0
+3
+3
 Package_TO_SOT_SMD
 SuperSOT-3
 3-pin SuperSOT package https://www.fairchildsemi.com/package-drawings/MA/MA03B.pdf

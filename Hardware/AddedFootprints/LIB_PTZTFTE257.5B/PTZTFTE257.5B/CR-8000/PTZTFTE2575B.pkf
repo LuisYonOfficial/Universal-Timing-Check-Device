@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PTZTFTE2575B"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PTZTFTE2575B")
+        (spec "default")
+    )
+)

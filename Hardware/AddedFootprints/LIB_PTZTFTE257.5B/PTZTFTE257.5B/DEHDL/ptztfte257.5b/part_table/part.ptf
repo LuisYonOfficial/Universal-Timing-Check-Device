@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PTZTFTE257.5B'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ROHM Semiconductor", "PTZTFTE257.5B" (!) = "", "PTZTFTE2575B", "Other", "", "", "1W 7.5V, DO-214AC, High Power Zener Diode for Automotive", "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/zener/ptztfte257.5b-e.pdf", "2.2 mm"
+END_PART
+
+END.

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/471538/1082652/2.49/3/3/Transistor BJT NPN/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r90_60" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="23.622047244094" height="35.433070866141" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="31.496062992126" height="43.307086614173" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="23.622047244094" height="35.433070866141" />
+  </padstyle>
+  <footprint name="SOT85P240X115-3N" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r90_60" originx="-47.244094488188" originy="33.464566929133" rotation="90" />
+    <pcbpin number="2" name="2" style="r90_60" originx="-47.244094488188" originy="-33.464566929133" rotation="90" />
+    <pcbpin number="3" name="3" style="r90_60" originx="47.244094488188" originy="0" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-74.803149606298" originy="70.866141732283" endx="74.803149606298" endy="70.866141732283" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="74.803149606298" originy="70.866141732283" endx="74.803149606298" endy="-70.866141732283" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="74.803149606298" originy="-70.866141732283" endx="-74.803149606298" endy="-70.866141732283" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-74.803149606298" originy="-70.866141732283" endx="-74.803149606298" endy="70.866141732283" width="1.9685039370079" />
+    <line layer="TOP_ASSEMBLY" originx="-26.574803149606" originy="57.086614173228" endx="26.574803149606" endy="57.086614173228" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="26.574803149606" originy="57.086614173228" endx="26.574803149606" endy="-57.086614173228" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="26.574803149606" originy="-57.086614173228" endx="-26.574803149606" endy="-57.086614173228" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-26.574803149606" originy="-57.086614173228" endx="-26.574803149606" endy="57.086614173228" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-26.574803149606" originy="23.622047244094" endx="6.8897637795275" endy="57.086614173228" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-15.748031496063" originy="57.086614173228" endx="15.748031496063" endy="57.086614173228" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="15.748031496063" originy="57.086614173228" endx="15.748031496063" endy="-57.086614173228" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="15.748031496063" originy="-57.086614173228" endx="-15.748031496063" endy="-57.086614173228" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-15.748031496063" originy="-57.086614173228" endx="-15.748031496063" endy="57.086614173228" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-64.960629921259" originy="55.11811023622" endx="-29.527559055118" endy="55.11811023622" width="7.8740157480314" />
+  </footprint>
+  <symbol name="2SD2653KT146" originx="0" originy="0">
+    <line originx="300" originy="100" endx="300" endy="-100" width="0" />
+    <line originx="300" originy="50" endx="400" endy="150" width="0" />
+    <line originx="300" originy="-50" endx="400" endy="-150" width="0" />
+    <line originx="400" originy="-150" endx="400" endy="-200" width="0" />
+    <line originx="400" originy="150" endx="400" endy="200" width="0" />
+    <line originx="100" originy="0" endx="300" endy="0" width="0" />
+    <arc originx="350" originy="0" startangle="180" sweepangle="180" radius="158.114" width="0" />
+    <arc originx="350" originy="0" startangle="180" sweepangle="-180" radius="158.114" width="0" />
+    <sympin number="3" originx="100" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-20" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="B" />
+      <text name="pindes" originx="0" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="2" originx="400" originy="-200" rotation="270" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="420" originy="-300" style="Default" rotation="90" justify="lowerleft" flipped="False" hidden="True" data="E" />
+      <text name="pindes" originx="380" originy="-300" style="Default" rotation="90" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="1" originx="400" originy="200" rotation="90" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="420" originy="300" style="Default" rotation="90" justify="upperleft" flipped="False" hidden="True" data="C" />
+      <text name="pindes" originx="380" originy="300" style="Default" rotation="90" justify="upperright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <polygon type="polygon">
+      <point x="330" y="-100" />
+      <point x="350" y="-80" />
+      <point x="370" y="-120" />
+    </polygon>
+  </symbol>
+  <component name="2SD2653KT146" designatorprefix="Q" height="45.275590551181" footprint="SOT85P240X115-3N">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="C" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="E" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="B" />
+    <attached_symbol gate="1" name="2SD2653KT146" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://componentsearchengine.com/Datasheets/2/2SD2653KT146.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="ROHM 2SD2653KT146 NPN Bipolar Transistor, 2 A, 12 V, 3-Pin SC-59" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="755-2SD2653KT146" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/2SD2653KT146?qs=4kLU8WoGk0t5OHI0NRNKLg%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="ROHM Semiconductor" />
+    <text name="Manufacturer_Part_Number" originx="550" originy="-50" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="2SD2653KT146" />
+  </component>
+</quadcept_library>

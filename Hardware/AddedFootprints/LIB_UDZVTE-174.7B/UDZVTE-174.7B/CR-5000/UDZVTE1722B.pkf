@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "UDZVTE1722B"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "UDZVTE1722B")
+        (spec "default")
+    )
+)

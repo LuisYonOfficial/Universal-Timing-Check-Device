@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UDZVTE-174.7B
+D ROHM UDZVTE-174.7B Zener Diode, 4.7V 200 mW SMT 2-Pin SOD-323
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fc0fdee245360d70a490ea42679dfa63.pdf
+$ENDCMP
+#
+#End Doc Library

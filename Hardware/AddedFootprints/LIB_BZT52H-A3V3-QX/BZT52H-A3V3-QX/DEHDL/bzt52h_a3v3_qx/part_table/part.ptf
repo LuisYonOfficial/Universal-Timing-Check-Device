@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BZT52H_A3V3_QX'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "BZT52H-A3V3-QX" (!) = "", "SODFL3516X120N", "Small Outline Diode Flat Lead", "771-BZT52H-A3V3-QX", "https://www.mouser.co.uk/ProductDetail/Nexperia/BZT52H-A3V3-QX?qs=A6eO%252BMLsxmSzLn%252BZoY0yAg%3D%3D", "Zener Diodes BZT52H-A3V3-Q/SOD123F/SOD2", "https://assets.nexperia.com/documents/data-sheet/BZT52H-Q_SER.pdf", "1.2 mm"
+END_PART
+
+END.

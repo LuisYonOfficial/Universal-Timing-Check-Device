@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_16285600"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-11-01-11:33:22)
+    (utime 2022-11-01-11:33:22)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BZT52H-A3V3-QX")
+)
+
+
+(pinAssign "ECS_16285600"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-11-01-11:33:22)
+    (utime 2022-11-01-11:33:22)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_16285600")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BZT52H-A3V3-QX")
+)
+
+
+(part "BZT52H-A3V3-QX"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-11-01-11:33:22)
+    (utime 2022-11-01-11:33:22)
+    (packageRef "BZT52H-A3V3-QX")
+    (pinAssignRef "ECS_16285600")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "Z")
+    (property "description" "Zener Diodes BZT52H-A3V3-Q/SOD123F/SOD2")
+    (property "Mouser_Part_Number" "771-BZT52H-A3V3-QX")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BZT52H-A3V3-QX?qs=A6eO%252BMLsxmSzLn%252BZoY0yAg%3D%3D")
+    (property "Manufacturer_Name" "Nexperia")
+    (property "Manufacturer_Part_Number" "BZT52H-A3V3-QX")
+    (property "Datasheet_Link" "https://assets.nexperia.com/documents/data-sheet/BZT52H-Q_SER.pdf")
+    (property "compAreaTopHeight" 1.2)
+)
+
+

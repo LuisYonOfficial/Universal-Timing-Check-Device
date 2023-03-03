@@ -1,0 +1,9 @@
+Manufacturer=ROHM Semiconductor
+PartNumber=2SB1707TL
+PartCategory=Transistor BJT PNP
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=4.1
+Released=2022-09-20 13:54:43
+Downloaded=2023-03-03 04:49:47
+3D=Y
