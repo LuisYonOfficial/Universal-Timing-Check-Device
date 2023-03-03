@@ -13,19 +13,24 @@ Image below shows a general esimate of how I intended the board to look like and
     - Multichannel Comparator check (0v to 12v)
 - Check if mid threshold comparison between 6 signals is met. 
     - Mid-threshold voltage set via 6 potentiometers (0v to 12v)
-- Drive a failure mode signal out from either signals (12v, 7.5v, 3.3v, 0v)
-- Have RGB LEDs that glow based on what failure condition per signal is failed or if there’s a net pass. These are tied to comparators? Might be tricky. 
+- Drive a failure mode signal out from either signals (12v, 7.5v, 5v, 3.3v)
+- OptionaL: Have RGB LEDs that glow based on what failure condition per signal is failed or if there’s a net pass. These are tied to comparators? Might be tricky. 
     - Red: Threshold failure
     - Orange: Timing Failure
     - Green: No Failure
-- Has breakout OLED slot for visualizing data in real time with bluetooth connected transmitter. Most likely will use STM32 for MCU. 
+- OptionaL: Have RGB LEDs that dictate which logic mode each comparator check is set to:
+    - Red: 12v
+    - Orange: 7.5v
+    - Cyan: 5v
+    - Green: 3.3v
+- Optional: Has breakout OLED slot for visualizing data in real time with bluetooth connected transmitter. Most likely will use STM32 for MCU. 
     
 ## Board Connection Points
 
 Main PWR: 
 - Optional 12V Power In Connector (Expands to 12v and 7.5v option for logic) 
-- Main 5V Power In connector (Sets 5v and 3.3c logic)
-- Final PWR voltage needs to be regulated (Off the shelf chip) 
+- Main 5V Power In connector (Sets 5v and 3.3v logic)
+- Final PWR voltage needs to be regulated (Using off the shelf dc/dc converters with built-in regulation)
 
 Signal Connections (For reading)
 - Terminal block connection points (4P header) for direct wire feeds. 
@@ -41,6 +46,6 @@ Signal Connections (For reading)
 
 ## What to do next
 - Finish basic logic check circuitry for 6 signals.
-- Need to find a comparator chipset rated for 12v and higher. 
-- Develop basic logic switch circuitry for determining if 3.3v, 5v, 7.5v, or 12v is being utilized for logic. 
+- Finish dc/dc converter setups for 12v -> 7.5v, 5v, 3.3v logic levels
+- Find suitable 10k audio pots
 
