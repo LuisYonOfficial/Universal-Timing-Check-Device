@@ -14,12 +14,9 @@ Image below shows a general esimate of how I intended the board to look like and
 - Check if mid threshold comparison between 6 signals is met. 
     - Mid-threshold voltage set via 6 potentiometers (0v to 12v)
 - Drive a failure mode signal out from either signals (12v, 7.5v, 5v, 3.3v)
-- OptionaL: Have RGB LEDs that glow based on what failure condition per signal is failed or if there’s a net pass. These are tied to comparators? Might be tricky. 
-    - Red: Threshold failure
-    - Orange: Timing Failure
-    - Green: No Failure
+- Give Flashing Red Light when output failure is detected. Otherwise Solid Red.
 - OptionaL: Have RGB LEDs that dictate which logic mode each comparator check is set to:
-    - Red: 12v
+    - White: 12v (Change from red that it is currently at)
     - Orange: 7.5v
     - Cyan: 5v
     - Green: 3.3v
