@@ -20,7 +20,7 @@ Image below shows a general esimate of how I intended the board to look like and
 ## Board Connection Points
 
 Main PWR: 
-- 12V Power In Connector (Expands to 12v and 7.5v option for logic) 
+- 12V Power In Connector (Gets reduced to 3.3v via regulator for central comparator logic)
 - Final PWR voltage needs to be regulated (Using off the shelf dc/dc converters with built-in regulation)
 
 Signal Connections (For reading)
@@ -38,6 +38,7 @@ Signal Connections (For reading)
 ## What to do next
 - Add visual LED indicator for each comparator logic output
 - Add optional telemetric side port
+- Finish PCB traces (only 40% done)
 
 Current Layout: 
 ![image](https://user-images.githubusercontent.com/126422709/227051652-c50f58ab-9e79-4286-8eaf-12260f3d0122.png)
