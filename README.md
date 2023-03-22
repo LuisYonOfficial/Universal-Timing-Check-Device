@@ -39,3 +39,11 @@ Signal Connections (For reading)
 - Add visual LED indicator for each comparator logic output
 - Add optional telemetric side port
 
+Current Layout: 
+![image](https://user-images.githubusercontent.com/126422709/227051652-c50f58ab-9e79-4286-8eaf-12260f3d0122.png)
+
+Example Comparator Logic Stage
+<img width="878" alt="image" src="https://user-images.githubusercontent.com/126422709/227051745-60926260-d7ca-4f40-9d2b-4918875d336f.png">
+
+
+
