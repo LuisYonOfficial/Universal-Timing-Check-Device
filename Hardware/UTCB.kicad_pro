@@ -48,7 +48,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -165,8 +171,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -473,16 +486,8 @@
       ""
     ],
     [
-      "bde50e00-d364-4ec4-b783-17a831ee4624",
-      "LogicSelector"
-    ],
-    [
       "2d64236e-93fc-470c-b3e6-8835376edabc",
       "ComparatorLogic"
-    ],
-    [
-      "9c1a3763-2d1f-4fef-a160-75a5b2db96cb",
-      "StepDownPower"
     ]
   ],
   "text_variables": {}
