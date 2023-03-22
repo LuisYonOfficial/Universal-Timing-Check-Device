@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TR05S3V3
+D Switching Regulator 3.3Vout 0.5A XP Power DC-DC Switching Regulator, 4.5  28V dc Input, 3.3V Output, Maximum of 500mA
+K
+F http://www.xppower.com/Portals/0/pdfs/SF_TR05.pdf?ver=2017-01-10-123411-657
+$ENDCMP
+#
+#End Doc Library
