@@ -38,7 +38,7 @@ Signal Connections (For reading)
 ## What to do next
 - Add visual LED indicator for each comparator logic output
 - Add optional telemetric side port
-- Finish PCB traces (only 40% done)
+- Add ability via switches to disable certain timing check pots and unused comparators
 
 Current Layout: 
 ![image](https://user-images.githubusercontent.com/126422709/227051652-c50f58ab-9e79-4286-8eaf-12260f3d0122.png)
