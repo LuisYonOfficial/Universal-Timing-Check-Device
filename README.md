@@ -1,10 +1,8 @@
 # Universal Timing Check Board (UTCB)
 ###### This repo acts as the digital storage of all associated developments (e.g. firmware, pcb development, CAD) and related documentation (e.g. schematic captures, pictures, testing data) to the "Universal Timing Check Board". This device acts as a sister companion to circuit testing for analog voltage checks and timing. Inspiration for board function and design is from previous revisions of an analog based brake system plausiblity device, however, this device is more general purpose and for my personal use. 
 
-
-Image below shows a general esimate of how I intended the board to look like and inspired by (although to be at a much much smaller dimensional board footprint)
-
-![image](https://user-images.githubusercontent.com/126422709/221457139-57d0c613-f147-428f-b165-ee71c0b4f5a0.png)
+Current Layout: 
+![image](https://user-images.githubusercontent.com/126422709/227051652-c50f58ab-9e79-4286-8eaf-12260f3d0122.png)
 
 ## Board Functionality
 - Check if an upper threshold is met. (0v to 12v)
@@ -39,9 +37,6 @@ Signal Connections (For reading)
 - Add visual LED indicator for each comparator logic output
 - Add optional telemetric side port
 - Add ability via switches to disable certain timing check pots and unused comparators
-
-Current Layout: 
-![image](https://user-images.githubusercontent.com/126422709/227051652-c50f58ab-9e79-4286-8eaf-12260f3d0122.png)
 
 Example Comparator Logic Stage
 <img width="878" alt="image" src="https://user-images.githubusercontent.com/126422709/227051745-60926260-d7ca-4f40-9d2b-4918875d336f.png">
