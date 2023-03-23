@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '418117270906'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "418117270906" (!) = "", "418117270906", "Other", "710-418117270906", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/418117270906?qs=2kOmHSv6VfTTULWQkr3hYg%3D%3D", "DIP Switches / SIP Switches WS-DITV DIP 6p THT 2.54mm Hrztl Box", "https://ms.componentsearchengine.com/Datasheets/1/418117270906.pdf", "6.55 mm"
+END_PART
+
+END.

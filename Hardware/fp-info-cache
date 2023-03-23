@@ -1,4 +1,4 @@
-21470754343140848
+21474113410127886
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1560,6 +1560,13 @@ switch tactile SPST 1P1T straight NO SMTR C&K
 0
 2
 2
+Button_Switch_THT
+418117270906
+418117270906-2
+Switch
+0
+12
+12
 Button_Switch_THT
 KSA_Tactile_SPST
 KSA http://www.ckswitches.com/media/1457/ksa_ksl.pdf
@@ -83191,6 +83198,13 @@ Symbol
 FCC-Logo_48.3x40mm_SilkScreen
 FCC marking
 Logo FCC certification
+0
+0
+0
+Symbol
+HazardSymbol
+
+
 0
 0
 0
