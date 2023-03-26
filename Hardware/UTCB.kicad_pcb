@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Universal Timing Check Device (UTCD)")
+    (rev "1.0")
+    (company "PIllarWorks")
+    (comment 1 "Edited by: Luis Yon")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" signal)
