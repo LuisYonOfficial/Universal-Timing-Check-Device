@@ -1532,7 +1532,7 @@
     (property "Value" "Conn_01x06" (at 80.01 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" (at 80.01 69.85 0)
+    (property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x06_P1.27mm_Vertical" (at 80.01 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 80.01 69.85 0)
