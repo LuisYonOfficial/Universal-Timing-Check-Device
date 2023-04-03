@@ -2,7 +2,9 @@
 ###### This repo acts as the digital storage of all associated developments (e.g. firmware, pcb development, CAD) and related documentation (e.g. schematic captures, pictures, testing data) to the "Universal Timing Check Board". This device acts as a sister companion to circuit testing for analog voltage checks and timing. Inspiration for board function and design is from previous revisions of an analog based brake system plausiblity device, however, this device is more general purpose and for my personal use. 
 
 Current Layout: 
-![image](https://user-images.githubusercontent.com/126422709/227077382-1cf996c0-b7a2-454e-bb5c-52bdf1b3ba89.png)
+![image](https://user-images.githubusercontent.com/126422709/229501473-1ab97b0f-fc82-4e52-a410-ef2fe6fd8bfa.png)
+![image](https://user-images.githubusercontent.com/126422709/229501510-a540bbb2-5520-4147-bdef-20f445f4ef17.png)
+![image](https://user-images.githubusercontent.com/126422709/229501582-1e0e5f13-779f-4be8-b68b-7bc50d1668ea.png)
 
 ## Board Functionality
 - Check if an upper threshold is met. (0v to 12v)
