@@ -1,4 +1,4 @@
-21474113410127886
+21475796988467170
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -50098,6 +50098,13 @@ DCDC-Converter XP_POWER JTE06 Dual
 0
 8
 8
+Converter_DCDC
+Pololu_D36V50F7
+
+
+0
+15
+7
 Converter_DCDC
 TR05S3V3
 TR05S3V3
