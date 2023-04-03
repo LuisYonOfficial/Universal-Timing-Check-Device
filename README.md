@@ -4,7 +4,6 @@
 Current Layout: 
 ![image](https://user-images.githubusercontent.com/126422709/229501473-1ab97b0f-fc82-4e52-a410-ef2fe6fd8bfa.png)
 ![image](https://user-images.githubusercontent.com/126422709/229501510-a540bbb2-5520-4147-bdef-20f445f4ef17.png)
-![image](https://user-images.githubusercontent.com/126422709/229501582-1e0e5f13-779f-4be8-b68b-7bc50d1668ea.png)
 
 ## Board Functionality
 - Check if an upper threshold is met. (0v to 12v)
@@ -38,4 +37,5 @@ Signal Connections (For reading)
 ## What to do next
 - Add visual LED indicator for each comparator logic output
 - Add optional telemetric side port
+- Need to reposition test points so as to not accidently short to pot pins.
 
